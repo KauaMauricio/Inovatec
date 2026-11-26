@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f8fc">
+<meta name="description" content="INOVATEC Refrigeração e Climatização. Instalação, manutenção e conserto para residências e empresas. Solicite seu orçamento.">
+<meta name="robots" content="index,follow">
+<title>INOVATEC | Refrigeração e Climatização</title>
+<style>
+:root{--navy:#102b49;--blue:#1269b3;--blue2:#258bd6;--red:#df3348;--ink:#17283a;--muted:#647487;--line:#e1e8ef;--paper:#f5f8fc;--white:#fff;--soft:#eaf3fb;--radius:22px;--shadow:0 18px 50px rgba(17,48,78,.10);--scale:1}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:100px;font-size:calc(16px * var(--scale))}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65;overflow-x:hidden}
+
+img{display:block;max-width:100%}a{color:inherit}button,input,select,textarea{font:inherit}button,a{touch-action:manipulation}
+:focus-visible{outline:3px solid #f0b429!important;outline-offset:4px}
+.skip{position:fixed;z-index:1000;top:10px;left:10px;padding:10px 15px;background:#fff;color:#102b49;border-radius:9px;transform:translateY(-150%);font-weight:800}.skip:focus{transform:none}
+.container{width:min(1160px,calc(100% - 44px));margin-inline:auto}
+.topbar{background:var(--navy);color:#eaf4fc;font-size:.78rem}.topbar .container{display:flex;justify-content:space-between;gap:14px;padding:8px 0;flex-wrap:wrap}.topbar strong{color:#8ed0ff}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(16px);border-bottom:1px solid rgba(20,55,85,.09)}
+.nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;min-width:max-content}.brand svg{width:48px;height:48px}.brand strong{font-size:1.2rem;letter-spacing:.08em;color:var(--navy);line-height:1}.brand strong span{color:var(--red)}.brand small{display:block;font-size:.63rem;color:#68798b;letter-spacing:.13em;text-transform:uppercase;margin-top:5px}
+.navlinks{display:flex;align-items:center;gap:clamp(13px,2vw,26px)}.navlinks a{text-decoration:none;font-size:.88rem;font-weight:700;color:#42566b}.navlinks a:hover{color:var(--blue)}
+.nav-actions{display:flex;align-items:center;gap:8px}.access{display:flex;gap:6px}.iconbtn,.menu{height:40px;min-width:40px;border:1px solid var(--line);border-radius:11px;background:#fff;color:var(--navy);cursor:pointer;font-weight:800}.menu{display:none}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:50px;padding:0 21px;border-radius:12px;border:1px solid transparent;background:var(--blue);color:white;text-decoration:none;font-weight:800;box-shadow:0 8px 20px rgba(18,105,179,.16);transition:transform .2s,background .2s}.btn:hover{background:#0d5796;transform:translateY(-2px)}.btn.red{background:var(--red);box-shadow:0 8px 20px rgba(223,51,72,.16)}.btn.outline{background:transparent;color:var(--navy);border-color:#cbd8e4;box-shadow:none}.btn.small{min-height:42px;padding-inline:16px;font-size:.86rem}
+.hero{padding:66px 0 56px;background:linear-gradient(115deg,#f5f8fc 0%,#edf5fc 55%,#f7f9fc 100%);}
+.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:58px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--blue);font-size:.75rem;font-weight:850;letter-spacing:.15em;text-transform:uppercase}.eyebrow:before{content:"";width:24px;height:2px;background:var(--red)}
+h1,h2,h3,p{margin-top:0}h1{font-size:clamp(2.6rem,5.3vw,4.9rem);line-height:1.04;letter-spacing:-.065em;color:var(--navy);margin:18px 0}h1 em{font-style:normal;color:var(--blue)}.hero-copy>p{font-size:1.08rem;color:var(--muted);max-width:560px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin:27px 0 24px}.proof{display:flex;gap:18px;flex-wrap:wrap;color:#52667a;font-size:.84rem;font-weight:650}.proof span{display:flex;align-items:center;gap:7px}.proof i{font-style:normal;color:#16885c;font-weight:900}
+.hero-photo{height:490px;border-radius:28px;overflow:hidden;box-shadow:var(--shadow);background:#dce7f1;position:relative}.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 25%}
+.metrics{background:#fff;border-block:1px solid var(--line)}.metric-grid{display:grid;grid-template-columns:repeat(3,1fr)}.metric{padding:22px 18px;text-align:center;border-right:1px solid var(--line)}.metric:last-child{border:0}.metric b{display:block;color:var(--navy);font-size:1.08rem}.metric span{font-size:.8rem;color:var(--muted)}
+section{padding:82px 0}.section-head{max-width:700px;margin-bottom:34px}.section-head h2{font-size:clamp(2rem,4vw,3.1rem);line-height:1.1;letter-spacing:-.05em;color:var(--navy);margin:10px 0 13px}.section-head p{color:var(--muted);margin:0}
+.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;min-height:220px;box-shadow:0 5px 18px rgba(15,44,73,.035);transition:transform .2s,box-shadow .2s,border-color .2s}.service:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#b6d5ee}.service-icon{width:46px;height:46px;display:grid;place-items:center;border-radius:13px;background:var(--soft);color:var(--blue);font-size:1.35rem;margin-bottom:18px}.service h3{font-size:1.05rem;color:var(--navy);margin-bottom:7px}.service p{font-size:.88rem;color:var(--muted);margin-bottom:14px}.service a{color:var(--blue);font-weight:800;text-decoration:none;font-size:.85rem}
+.audience{background:#102b49;color:#fff}.audience .section-head h2{color:#fff}.audience .section-head p{color:#c2d2e1}.audience .eyebrow{color:#8ed0ff}.audience-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.audience-card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:20px;padding:30px}.audience-card .tag{color:#8ed0ff;text-transform:uppercase;font-size:.73rem;letter-spacing:.14em;font-weight:850}.audience-card h3{font-size:1.55rem;margin:10px 0}.audience-card p,.audience-card li{color:#d2deea}.audience-card ul{padding-left:19px;margin-bottom:0}
+.about-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:54px;align-items:center}.about-photo{height:430px;border-radius:22px;overflow:hidden;box-shadow:var(--shadow)}.about-photo img{width:100%;height:100%;object-fit:cover}.about-copy h2{font-size:clamp(2rem,4vw,3rem);line-height:1.1;letter-spacing:-.05em;color:var(--navy)}.about-copy>p{color:var(--muted)}.benefits{display:grid;gap:13px;margin:24px 0}.benefit{display:flex;gap:12px;align-items:flex-start}.check{width:27px;height:27px;flex:none;border-radius:50%;display:grid;place-items:center;background:#e5f5ee;color:#138253;font-weight:900}.benefit b{display:block;color:var(--navy)}.benefit span{font-size:.87rem;color:var(--muted)}
+.gallery{background:#edf3f8}.gallery-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:16px}.gallery-main,.gallery-side figure{margin:0;border-radius:18px;overflow:hidden;background:#d8e3ec}.gallery-main{height:400px}.gallery-main img{width:100%;height:100%;object-fit:cover}.gallery-side{display:grid;grid-template-rows:1fr 1fr;gap:16px}.gallery-side figure{height:192px}.gallery-side img{width:100%;height:100%;object-fit:cover}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;counter-reset:step}.step{background:#fff;border:1px solid var(--line);border-radius:18px;padding:23px}.step b{display:block;color:var(--blue);font-size:.75rem;letter-spacing:.14em;margin-bottom:10px}.step h3{color:var(--navy);font-size:1.05rem;margin-bottom:7px}.step p{font-size:.88rem;color:var(--muted);margin:0}
+.cta-band{padding:0 0 82px}.cta-inner{background:linear-gradient(115deg,#1269b3,#0c3d6b);border-radius:24px;padding:36px 40px;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:24px}.cta-inner h2{font-size:clamp(1.6rem,3vw,2.35rem);margin:0 0 6px;letter-spacing:-.04em}.cta-inner p{color:#d6e9f8;margin:0}.cta-inner .btn{background:#fff;color:#104d80;box-shadow:none;flex:none}
+.faq-grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:50px}.faq-grid .section-head{margin:0}details{background:#fff;border:1px solid var(--line);border-radius:13px;padding:16px 18px;margin-bottom:10px}summary{cursor:pointer;font-weight:800;color:var(--navy)}details p{color:var(--muted);font-size:.9rem;margin:12px 0 0}
+.contact{background:#edf3f8}.contact-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:30px;align-items:start}.contact-info h2{font-size:clamp(2rem,4vw,3rem);line-height:1.1;color:var(--navy);letter-spacing:-.05em}.contact-info>p{color:var(--muted)}.contact-card{background:#102b49;color:#fff;border-radius:18px;padding:24px;margin-top:24px}.contact-card p{margin:0 0 12px;color:#d2deea;font-size:.9rem}.contact-card a{display:block;color:#fff;font-weight:800;text-decoration:none;margin:8px 0}.form-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:27px;box-shadow:var(--shadow)}.form-card h3{color:var(--navy);font-size:1.25rem;margin-bottom:5px}.form-card>p{color:var(--muted);font-size:.88rem}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:grid;gap:6px}.field.full{grid-column:1/-1}label{font-size:.82rem;font-weight:800;color:#31485f}input,select,textarea{width:100%;border:1px solid #cfdae5;border-radius:10px;padding:12px 13px;background:#fff;color:#17283a;min-height:47px}textarea{min-height:110px;resize:vertical}.consent{display:flex;gap:9px;align-items:flex-start;font-size:.78rem;color:var(--muted);margin:14px 0}.consent input{width:18px;min-height:18px;margin-top:2px}.form-status{font-size:.82rem;color:#1269b3;margin-top:10px;min-height:1.3em}
+.privacy{background:#fff;border-top:1px solid var(--line)}.privacy details{max-width:900px;margin:0 auto;background:#f8fafc}.privacy summary{color:var(--blue)}.privacy p{font-size:.85rem}
+footer{background:#0b2036;color:#d7e3ee;padding:42px 0 20px}.footer-grid{display:grid;grid-template-columns:1.3fr .7fr .9fr;gap:34px}footer .brand strong{color:#fff}footer .brand small{color:#aabccc}footer p,footer a{color:#b7c8d8;font-size:.87rem}footer a{text-decoration:none}footer a:hover{color:#fff}footer h3{font-size:.9rem;color:#fff}.footer-links{display:grid;gap:8px}.copyright{border-top:1px solid rgba(255,255,255,.14);margin-top:30px;padding-top:16px;font-size:.76rem;color:#91a7bb}
+@media(max-width:960px){.navlinks{gap:13px}.navlinks a{font-size:.82rem}.hero-grid{gap:30px}.hero-photo{height:420px}.service-grid{grid-template-columns:repeat(2,1fr)}.about-grid{gap:32px}}
+@media(max-width:760px){.container{width:min(100% - 32px,600px)}.topbar .container{justify-content:center;text-align:center}.nav{min-height:72px}.brand svg{width:42px;height:42px}.nav-actions .btn{display:none}.access{display:none}.menu{display:block}.navlinks{display:none;position:absolute;left:0;right:0;top:72px;background:#fff;padding:16px 22px 20px;border-bottom:1px solid var(--line);box-shadow:0 16px 22px rgba(15,44,73,.08);align-items:stretch;flex-direction:column}.navlinks.open{display:flex}.navlinks a{padding:9px 0;font-size:.95rem}.hero{padding:42px 0 38px}.hero-grid{grid-template-columns:1fr;gap:28px}h1{font-size:clamp(2.55rem,12vw,4rem)}.hero-photo{height:380px}.metric-grid{grid-template-columns:1fr}.metric{border-right:0;border-bottom:1px solid var(--line);padding:14px}.metric:last-child{border-bottom:0}section{padding:62px 0}.service-grid{grid-template-columns:1fr 1fr;gap:11px}.service{padding:18px;min-height:220px}.audience-grid,.about-grid,.gallery-grid,.faq-grid,.contact-grid{grid-template-columns:1fr;gap:24px}.about-photo{height:330px;order:2}.gallery-main{height:300px}.gallery-side figure{height:155px}.steps{grid-template-columns:1fr}.cta-band{padding-bottom:62px}.cta-inner{padding:27px;align-items:flex-start;flex-direction:column}.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}}
+@media(max-width:440px){.service-grid{grid-template-columns:1fr}.service{min-height:0}.hero-photo{height:320px}.actions .btn{width:100%}.form-card{padding:19px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* INOVATEC — refinamento visual */
+:root{
+ --navy:#0b2945;--blue:#0878bd;--blue2:#35a6dc;--red:#df3348;
+ --ink:#142b40;--muted:#60758a;--line:rgba(31,76,111,.13);
+ --paper:#f0f6fb;--white:#fff;--soft:#e2f1fa;
+ --shadow:0 22px 60px rgba(8,42,72,.12);--radius:24px
+}
+body{background:#f0f6fb}
+header{background:rgba(8,35,60,.96);border-bottom:1px solid rgba(255,255,255,.10);backdrop-filter:blur(18px)}
+.nav{min-height:76px;gap:28px}
+.brand strong{color:#fff}.brand strong span{color:#ff6375}
+.brand small{color:#a9c0d3}
+.brand svg{filter:drop-shadow(0 3px 8px rgba(0,0,0,.16))}
+.navlinks{gap:clamp(12px,1.7vw,24px)}
+.navlinks a{color:#d5e4ef;font-size:.86rem}
+.navlinks a:hover{color:#70caff}
+.nav-actions .btn{background:linear-gradient(135deg,#168bd0,#0864a5);box-shadow:0 9px 25px rgba(0,117,190,.25)}
+.menu{background:rgba(255,255,255,.09);color:#fff;border-color:rgba(255,255,255,.22)}
+.hero{padding:74px 0 70px;background:
+ radial-gradient(ellipse at 84% 16%,rgba(52,160,218,.16),transparent 36%),
+ linear-gradient(125deg,#edf5fb 0%,#f7fafd 54%,#e8f2fa 100%)}
+.hero-grid{gap:clamp(30px,5vw,70px)}
+.hero-photo{height:510px;border-radius:30px;box-shadow:0 25px 65px rgba(10,48,78,.18);border:1px solid rgba(255,255,255,.75)}
+.hero-photo:after{content:"";position:absolute;inset:0;border:1px solid rgba(255,255,255,.28);border-radius:inherit;pointer-events:none}
+.hero-photo img{object-position:center 28%;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.hero-photo:hover img{transform:scale(1.035)}
+h1{font-size:clamp(2.55rem,5vw,4.6rem)}
+.eyebrow{letter-spacing:.13em}
+.metrics{background:#e4eef6;border:0}
+.metric{border-color:rgba(22,67,102,.12)}
+.metric b{color:#0b3557}
+section{padding:88px 0}
+#servicos{background:#f7fafd}
+.service{background:rgba(255,255,255,.78);border:1px solid rgba(255,255,255,.9);box-shadow:0 10px 28px rgba(20,62,94,.055);backdrop-filter:blur(12px)}
+.service:hover{transform:translateY(-7px);box-shadow:0 20px 42px rgba(20,62,94,.12);border-color:rgba(20,133,194,.3)}
+.service-icon{background:linear-gradient(145deg,#e4f4fc,#f4faff);box-shadow:inset 0 1px 0 #fff}
+.audience{background:linear-gradient(125deg,#082943,#103f62 72%,#0b3150);position:relative;overflow:hidden}
+.audience:before{content:"";position:absolute;width:420px;height:420px;border-radius:50%;right:-160px;top:-210px;border:1px solid rgba(117,203,246,.17);box-shadow:0 0 0 45px rgba(117,203,246,.035),0 0 0 90px rgba(117,203,246,.025)}
+.audience .container{position:relative}
+.audience-card{background:rgba(255,255,255,.075);backdrop-filter:blur(12px);border-color:rgba(255,255,255,.13);transition:transform .25s,background .25s}
+.audience-card:hover{transform:translateY(-4px);background:rgba(255,255,255,.11)}
+#empresa{background:#f7fafd}
+.about-photo{height:450px;border-radius:28px;border:7px solid rgba(255,255,255,.8);box-shadow:0 22px 55px rgba(12,48,78,.13)}
+.about-photo img{object-position:center 30%;transition:transform .7s}
+.about-photo:hover img{transform:scale(1.025)}
+.gallery{background:linear-gradient(180deg,#eaf3fa,#f2f7fb)}
+.gallery-grid{grid-template-columns:1.08fr .92fr;gap:18px}
+.gallery-main{height:430px}
+.gallery-side figure{height:206px}
+.gallery-main img,.gallery-side img{transition:transform .65s cubic-bezier(.2,.7,.2,1)}
+.gallery-main:hover img,.gallery-side figure:hover img{transform:scale(1.04)}
+.gallery-main,.gallery-side figure{box-shadow:0 14px 36px rgba(12,48,78,.11);border:1px solid rgba(255,255,255,.8)}
+.steps .step{background:linear-gradient(145deg,#fff,#f4f9fd);box-shadow:0 9px 25px rgba(20,62,94,.045);transition:transform .25s,box-shadow .25s}
+.steps .step:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+.cta-inner{background:radial-gradient(circle at 90% 15%,rgba(99,197,244,.25),transparent 35%),linear-gradient(115deg,#0879b9,#0b3154);box-shadow:0 20px 48px rgba(9,58,94,.17)}
+#duvidas{background:#f7fafd}
+details{background:rgba(255,255,255,.85);border-color:rgba(30,77,112,.11);box-shadow:0 5px 18px rgba(20,62,94,.035);transition:border-color .2s,box-shadow .2s}
+details[open]{border-color:rgba(8,120,189,.35);box-shadow:0 12px 26px rgba(20,62,94,.08)}
+.contact{background:linear-gradient(135deg,#e5f0f8,#f1f7fb 55%,#eaf3f9)}
+.contact-card{background:linear-gradient(145deg,#0b2945,#124a70);box-shadow:0 14px 35px rgba(10,46,75,.16)}
+.form-card{border:1px solid rgba(255,255,255,.95);background:rgba(255,255,255,.86);backdrop-filter:blur(16px);box-shadow:0 20px 55px rgba(10,48,78,.11);transition:transform .3s,box-shadow .3s}
+.form-card:hover{transform:translateY(-3px);box-shadow:0 25px 65px rgba(10,48,78,.15)}
+input,select,textarea{border:1px solid #d3e0ea;background:#f9fcfe;transition:border-color .2s,box-shadow .2s,background .2s,transform .2s}
+input:focus,select:focus,textarea:focus{outline:0;border-color:#168bd0;box-shadow:0 0 0 4px rgba(22,139,208,.13);background:#fff}
+.field:focus-within label{color:#0878bd}
+.form-card .btn{background:linear-gradient(110deg,#0878bd,#1598ce);box-shadow:0 10px 24px rgba(8,120,189,.22)}
+.consent{line-height:1.45}
+.privacy{background:#f7fafd;border:0}
+.privacy details{background:#edf4f9}
+footer{background:radial-gradient(ellipse at 85% 0%,rgba(33,127,180,.25),transparent 38%),linear-gradient(135deg,#071e33,#0b304e);padding:58px 0 22px}
+.footer-grid{grid-template-columns:1.45fr .75fr 1fr;gap:clamp(24px,5vw,70px)}
+footer h3{font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;color:#83c9ed;margin:8px 0 18px}
+footer .brand{margin-bottom:12px}
+.footer-links{gap:11px}
+footer a:hover{color:#7bd0ff}
+.copyright{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;margin-top:38px;padding-top:20px;color:#91a9bc}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s cubic-bezier(.2,.7,.2,1)}
+.reveal.is-visible{opacity:1;transform:none}
+.btn,.service,.audience-card,.step{will-change:transform}
+@media(max-width:960px){
+ .nav{gap:14px}.navlinks{gap:10px}.navlinks a{font-size:.77rem}
+ .hero-photo{height:440px}
+}
+@media(max-width:760px){
+ header{background:rgba(8,35,60,.98)}
+ .nav{min-height:68px}
+ .brand svg{width:39px;height:39px}
+ .navlinks{top:68px;background:rgba(8,35,60,.99);border-bottom:1px solid rgba(255,255,255,.13);box-shadow:0 18px 28px rgba(0,0,0,.2);padding:13px 22px 20px}
+ .navlinks a{font-size:.95rem;color:#e2edf5;border-bottom:1px solid rgba(255,255,255,.08);padding:11px 2px}
+ .navlinks a:last-child{border:0}
+ .nav-actions .btn{display:inline-flex;min-height:40px;padding:0 12px;font-size:.77rem}
+ .hero{padding:42px 0 40px}
+ .hero-grid{gap:25px}
+ .hero-copy{max-width:640px}
+ .hero-photo{height:min(112vw,430px);max-height:430px;border-radius:23px}
+ section{padding:64px 0}
+ .about-photo{height:340px;order:0}
+ .gallery-main{height:310px}.gallery-side figure{height:155px}
+ .footer-grid{grid-template-columns:1fr 1fr}
+ .footer-grid>div:first-child{grid-column:1/-1}
+}
+@media(max-width:440px){
+ .nav{gap:8px}.brand{gap:7px}.brand svg{width:34px;height:34px}
+ .brand strong{font-size:1rem}.brand small{font-size:.52rem}
+ .nav-actions .btn{font-size:.68rem;padding:0 9px;min-height:38px}
+ .menu{height:38px;min-width:38px}
+ .hero-photo{height:330px}
+ .service-grid{grid-template-columns:1fr}
+ .form-card{padding:20px}
+ .footer-grid{grid-template-columns:1fr}
+ .footer-grid>div:first-child{grid-column:auto}
+ .copyright{font-size:.72rem}
+}
+@media(prefers-reduced-motion:reduce){
+ .reveal{opacity:1;transform:none;transition:none}
+ .hero-photo img,.about-photo img,.gallery img{transition:none}
+}
+
+
+/* V3 — cabeçalho glass premium + cards de serviço com contorno */
+header{
+ position:sticky;top:0;z-index:100;
+ background:rgba(247,251,254,.78);
+ -webkit-backdrop-filter:blur(22px) saturate(165%);
+ backdrop-filter:blur(22px) saturate(165%);
+ border-bottom:1px solid rgba(26,91,137,.12);
+ box-shadow:0 8px 28px rgba(15,49,77,.055);
+ transition:background .25s ease,box-shadow .25s ease;
+}
+header:after{
+ content:"";position:absolute;inset:auto 0 0;height:1px;
+ background:linear-gradient(90deg,transparent,rgba(20,133,194,.30),rgba(223,51,72,.18),transparent);
+ pointer-events:none
+}
+.nav{min-height:78px;gap:clamp(12px,2vw,28px)}
+.brand strong{color:#102d46}
+.brand small{color:#70869a}
+.navlinks{gap:clamp(5px,.8vw,12px)}
+.navlinks a{
+ color:#29465e;font-size:.84rem;font-weight:650;
+ padding:10px 12px;border:1px solid transparent;border-radius:12px;
+ background:rgba(255,255,255,.18);
+ transition:color .22s ease,background .22s ease,border-color .22s ease,transform .22s ease;
+}
+.navlinks a:hover,.navlinks a:focus-visible{
+ color:#0878bd;background:rgba(255,255,255,.72);
+ border-color:rgba(8,120,189,.18);transform:translateY(-1px);
+ outline:none;box-shadow:0 5px 16px rgba(8,74,119,.07)
+}
+.nav-actions{margin-left:auto}
+.menu{
+ color:#173c58;background:rgba(255,255,255,.58);
+ border:1px solid rgba(23,103,153,.2);
+ box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 4px 12px rgba(15,49,77,.06);
+ transition:background .2s,border-color .2s,transform .2s
+}
+.menu:hover{background:rgba(255,255,255,.92);border-color:rgba(8,120,189,.4);transform:translateY(-1px)}
+/* Borda azul de 1,5 px com brilho discreto e movimento interno ao passar o mouse */
+.service{
+ position:relative;isolation:isolate;overflow:hidden;
+ border:1.5px solid rgba(16,119,184,.56);
+ border-radius:20px;
+ background:linear-gradient(145deg,rgba(255,255,255,.97),rgba(244,250,254,.91));
+ box-shadow:0 8px 22px rgba(11,65,103,.055),inset 0 1px 0 rgba(255,255,255,.95);
+ transition:transform .28s cubic-bezier(.2,.7,.2,1),box-shadow .28s ease,border-color .28s ease,background .28s ease;
+}
+.service:before{
+ content:"";position:absolute;inset:0;z-index:-1;opacity:0;
+ background:radial-gradient(circle at 0 0,rgba(55,173,226,.15),transparent 48%);
+ transition:opacity .3s ease;pointer-events:none
+}
+.service:after{
+ content:"";position:absolute;top:-80%;left:-55%;width:38%;height:260%;
+ transform:rotate(24deg);opacity:0;
+ background:linear-gradient(90deg,transparent,rgba(255,255,255,.7),transparent);
+ transition:transform .65s ease,opacity .25s ease;pointer-events:none
+}
+.service:hover{
+ transform:translateY(-7px);
+ border-color:rgba(8,120,189,.9);
+ box-shadow:0 18px 38px rgba(8,91,145,.13),0 0 0 3px rgba(8,120,189,.055),inset 0 1px 0 #fff;
+ background:linear-gradient(145deg,#fff,#f0f9ff)
+}
+.service:hover:before{opacity:1}
+.service:hover:after{opacity:1;transform:translateX(390%) rotate(24deg)}
+.service:focus-within{outline:3px solid rgba(8,120,189,.18);outline-offset:3px}
+.service-icon{
+ border:1px solid rgba(8,120,189,.13);
+ box-shadow:0 5px 14px rgba(8,120,189,.08),inset 0 1px 0 rgba(255,255,255,.9)
+}
+.service h3{position:relative}
+.service a{transition:color .2s,letter-spacing .2s}
+.service a:hover{color:#075b91;letter-spacing:.01em}
+@media(max-width:760px){
+ .nav{min-height:68px}
+ .navlinks{
+  background:rgba(246,251,254,.94);
+  -webkit-backdrop-filter:blur(22px) saturate(160%);
+  backdrop-filter:blur(22px) saturate(160%);
+  border:1px solid rgba(24,100,148,.12);
+  border-top:0;border-radius:0 0 18px 18px;
+  box-shadow:0 18px 32px rgba(9,45,73,.12)
+ }
+ .navlinks a{color:#23445e;background:rgba(255,255,255,.48);border:1px solid rgba(24,100,148,.08);border-radius:10px}
+ .navlinks a:hover{background:rgba(255,255,255,.92)}
+}
+@media(prefers-reduced-motion:reduce){
+ .service,.service:before,.service:after,.navlinks a,.menu{transition:none}
+ .service:hover{transform:none}
+}
+
+
+/* Ajuste do nome da marca no cabeçalho */
+header .brand{display:flex;align-items:center;gap:12px}
+header .brand>span{display:flex;align-items:center;justify-content:center;line-height:1}
+header .brand strong{
+ display:block;margin:0;padding:0;
+ font-size:1.32rem;font-weight:900;letter-spacing:.075em;
+ line-height:1;white-space:nowrap;
+}
+header .brand strong span{font-weight:900}
+@media(max-width:760px){
+ header .brand{gap:9px}
+ header .brand svg{width:39px;height:39px}
+ header .brand strong{font-size:1.18rem;font-weight:900}
+}
+
+</style>
+</head>
+<body>
+</div>
+<header>
+ <div class="container nav">
+  <a class="brand" href="#inicio" aria-label="INOVATEC — página inicial"><svg viewBox="0 0 64 64" role="img" aria-label="Símbolo INOVATEC"><circle cx="32" cy="32" r="29" fill="none" stroke="#e52e43" stroke-width="3.5"/><g stroke="#0b4e91" stroke-width="4" stroke-linecap="round" fill="none"><path d="M32 10v44M13 21l38 22M13 43l38-22"/><path d="M32 10l-5 7m5-7 5 7M32 54l-5-7m5 7 5-7M13 21l8 1m-8-1 3 8m35-8-8 1m8-1-3 8M13 43l8-1m-8 1 3-8m35 8-8-1m8 1-3-8"/></g></svg><span><strong>INOVA<span>TEC</span></strong></span></a>
+  <nav class="navlinks" id="navlinks" aria-label="Menu principal">
+   <a href="#servicos">Serviços</a><a href="#solucoes">Soluções</a><a href="#empresa">A empresa</a><a href="#projetos">Nosso trabalho</a><a href="#duvidas">Dúvidas</a><a href="#contato">Contato</a>
+  </nav>
+  <div class="nav-actions">
+   <button class="menu" id="menuBtn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="navlinks">☰</button>
+  </div>
+ </div>
+</header>
+<main id="conteudo">
+<section class="hero" id="inicio"><div class="container hero-grid">
+ <div class="hero-copy">
+  <span class="eyebrow">Tecnologia, conforto e confiança</span>
+  <h1>O clima ideal.<br><em>O cuidado que</em><br>sua estrutura merece.</h1>
+  <p>Soluções em refrigeração e climatização para residências e empresas. Da instalação à manutenção, a INOVATEC cuida do desempenho dos seus equipamentos com atendimento direto e orçamento transparente.</p>
+  <div class="actions"><a class="btn" href="https://wa.me/5521981161153?text=Olá%2C%20INOVATEC!%20Gostaria%20de%20solicitar%20um%20orçamento.">Conversar pelo WhatsApp <span aria-hidden="true">↗</span></a><a class="btn outline" href="#servicos">Conhecer serviços</a></div>
+  <div class="proof"><span><i>✓</i> Atendimento direto</span><span><i>✓</i> Orçamento transparente</span><span><i>✓</i> Residencial e comercial</span></div>
+ </div>
+ <div class="hero-photo"><img src="" alt="Fachada da INOVATEC Refrigeração e Climatização." loading="lazy"></div>
+</div></section>
+<div class="metrics"><div class="container metric-grid"><div class="metric"><b>Instalação</b><span>Planejamento e execução técnica</span></div><div class="metric"><b>Manutenção</b><span>Cuidado preventivo e corretivo</span></div><div class="metric"><b>Refrigeração</b><span>Soluções para diferentes equipamentos</span></div></div></div>
+<section id="servicos"><div class="container">
+ <div class="section-head"><span class="eyebrow">Portfólio de serviços</span><h2>Uma equipe. Várias soluções.</h2><p>Conte o que seu equipamento precisa. A equipe orienta o atendimento adequado para climatização e refrigeração residencial ou comercial.</p></div>
+ <div class="service-grid">
+  <article class="service"><div class="service-icon" aria-hidden="true">❄</div><h3>Instalação de ar-condicionado</h3><p>Instalação de modelos split, cassete e janela, com atenção ao local e ao funcionamento.</p><a href="#contato" data-service="Instalação de ar-condicionado">Solicitar instalação →</a></article>
+  <article class="service"><div class="service-icon" aria-hidden="true">⌁</div><h3>Manutenção e limpeza</h3><p>Cuidados preventivos e higienização para ajudar a manter o desempenho do equipamento.</p><a href="#contato" data-service="Manutenção e limpeza">Agendar manutenção →</a></article>
+  <article class="service"><div class="service-icon" aria-hidden="true">⚙</div><h3>Conserto de ar-condicionado</h3><p>Avaliação de falhas e orientação para recuperar o funcionamento do aparelho.</p><a href="#contato" data-service="Conserto de ar-condicionado">Pedir avaliação →</a></article>
+  <article class="service"><div class="service-icon" aria-hidden="true">▣</div><h3>Refrigeração comercial</h3><p>Atendimento a equipamentos de refrigeração usados em operações comerciais.</p><a href="#contato" data-service="Refrigeração comercial">Falar com a equipe →</a></article>
+  <article class="service"><div class="service-icon" aria-hidden="true">❄</div><h3>Geladeiras e freezers</h3><p>Orientação e atendimento para equipamentos de conservação e armazenamento.</p><a href="#contato" data-service="Geladeiras e freezers">Solicitar atendimento →</a></article>
+  <article class="service"><div class="service-icon" aria-hidden="true">▤</div><h3>PMOC e manutenção programada</h3><p>Converse com a equipe sobre necessidades de manutenção e documentação técnica.</p><a href="#contato" data-service="PMOC e manutenção programada">Consultar serviço →</a></article>
+ </div>
+</div></section>
+<section class="audience" id="solucoes"><div class="container">
+ <div class="section-head"><span class="eyebrow">Soluções por necessidade</span><h2>Do conforto de casa à operação da sua empresa.</h2><p>Um primeiro contato simples para entender o cenário e direcionar o atendimento.</p></div>
+ <div class="audience-grid">
+  <article class="audience-card"><span class="tag">Residencial</span><h3>Seu espaço mais confortável, em todas as estações.</h3><p>Atendimento para instalação, limpeza e conserto de equipamentos da sua casa.</p><ul><li>Ar-condicionado split e janela</li><li>Geladeiras e freezers</li><li>Manutenção preventiva e corretiva</li></ul></article>
+  <article class="audience-card"><span class="tag">Comercial</span><h3>Mais cuidado com os equipamentos da sua operação.</h3><p>Soluções de climatização e refrigeração para ambientes de trabalho e estabelecimentos.</p><ul><li>Climatização de ambientes</li><li>Refrigeração comercial</li><li>Manutenção e suporte técnico</li></ul></article>
+ </div>
+</div></section>
+<section id="empresa"><div class="container about-grid">
+ <div class="about-photo"><img src="" alt="Profissional da INOVATEC com uniforme azul, em ambiente de trabalho da empresa." fetchpriority="high"></div>
+ <div class="about-copy"><span class="eyebrow">A empresa</span><h2>Refrigeração e climatização com atendimento direto.</h2><p>A INOVATEC atua no segmento de refrigeração e climatização no Rio de Janeiro. Seu trabalho reúne instalação, manutenção e conserto de equipamentos residenciais e comerciais.</p>
+  <div class="benefits"><div class="benefit"><span class="check">✓</span><div><b>Atendimento direto</b><span>Converse com a equipe e explique o que precisa.</span></div></div><div class="benefit"><span class="check">✓</span><div><b>Orçamento alinhado</b><span>Entenda a proposta antes de autorizar a execução.</span></div></div><div class="benefit"><span class="check">✓</span><div><b>Atuação diversificada</b><span>Climatização e refrigeração para diferentes necessidades.</span></div></div></div>
+  <a class="btn" href="#contato">Fale com a INOVATEC</a>
+ </div>
+</div></section>
+<section class="gallery" id="projetos"><div class="container">
+ <div class="section-head"><span class="eyebrow">Nosso dia a dia</span><h2>Trabalho real. Compromisso em cada detalhe.</h2><p>Um pouco da equipe, da identidade e dos ambientes de atendimento da INOVATEC.</p></div>
+ <div class="gallery-grid"><figure class="gallery-main"><img src="" alt="Profissionais realizando manutenção em equipamento de ar-condicionado." loading="lazy"></figure><div class="gallery-side"><figure><img src="" alt="Profissional da INOVATEC em atendimento no escritório, com a identidade visual da empresa ao fundo." loading="lazy"></figure><figure><img src="" alt="Aparelho de ar-condicionado instalado em ambiente interno." loading="lazy"></figure></div></div>
+</div></section>
+<section class="process"><div class="container"><div class="section-head"><span class="eyebrow">Jornada do cliente</span><h2>Simples para você. Claro do início ao fim.</h2><p>Um processo organizado ajuda a equipe a entender o serviço antes de combinar o atendimento.</p></div>
+ <div class="steps"><article class="step"><b>ETAPA 01</b><h3>Conte sua necessidade</h3><p>Informe o equipamento, o que está acontecendo e o bairro. Fotos ajudam no primeiro entendimento.</p></article><article class="step"><b>ETAPA 02</b><h3>Receba a orientação</h3><p>A equipe avalia as informações e explica os próximos passos e o orçamento inicial.</p></article><article class="step"><b>ETAPA 03</b><h3>Combine o atendimento</h3><p>Data e período são alinhados diretamente com a equipe, conforme disponibilidade.</p></article></div>
+</div></section>
+<div class="cta-band"><div class="container"><div class="cta-inner"><div><h2>Pronto para resolver?</h2><p>Não deixe o problema de climatização atrapalhar seu dia.</p></div><a class="btn" href="https://wa.me/5521981161153?text=Olá%2C%20INOVATEC!%20Quero%20conversar%20sobre%20um%20serviço.">Conversar pelo WhatsApp ↗</a></div></div></div>
+<section id="duvidas"><div class="container faq-grid"><div class="section-head"><span class="eyebrow">Central de ajuda</span><h2>Dúvidas frequentes</h2><p>Informações para você entender como funciona o atendimento antes de solicitar seu orçamento.</p></div><div>
+ <details><summary>O atendimento é feito em domicílio?</summary><p>Sim, quando o serviço está na área atendida. Informe o bairro e a cidade para a equipe confirmar a disponibilidade.</p></details>
+ <details><summary>Como funciona o orçamento?</summary><p>Descreva o problema e, se puder, envie fotos do equipamento. A equipe passa uma orientação inicial; em alguns casos pode ser necessária uma avaliação no local.</p></details>
+ <details><summary>O formulário confirma o agendamento?</summary><p>Não. O formulário prepara uma mensagem para o WhatsApp. O agendamento só é combinado após a confirmação direta com a equipe.</p></details>
+ <details><summary>Quais informações devo enviar?</summary><p>Se possível, informe o tipo de equipamento, marca/modelo, o que está acontecendo e a região onde será realizado o atendimento.</p></details>
+</div></div></section>
+<section class="contact" id="contato"><div class="container contact-grid">
+ <div class="contact-info"><span class="eyebrow">Contato e orçamento</span><h2>Vamos encontrar a solução para seu equipamento.</h2><p>Conte um pouco sobre o que você precisa. Sua mensagem será preparada no WhatsApp para você revisar e enviar.</p><div class="contact-card"><p><strong>WhatsApp principal</strong></p><a href="https://wa.me/5521981161153">(21) 98116-1153 ↗</a><p><strong>WhatsApp alternativo</strong></p><a href="https://wa.me/5521985664678">(21) 98566-4678 ↗</a><p><strong>Área de atendimento</strong><br>Rio de Janeiro e região</p></div></div>
+ <form class="form-card" id="quoteForm"><h3>Solicite seu orçamento</h3><p>Os campos marcados com * são obrigatórios.</p>
+  <div class="form-grid">
+   <div class="field"><label for="nome">Nome completo *</label><input id="nome" name="nome" autocomplete="name" required placeholder="Seu nome"></div>
+   <div class="field"><label for="telefone">Telefone / WhatsApp *</label><input id="telefone" name="telefone" type="tel" autocomplete="tel" required placeholder="(21) 90000-0000"></div>
+   <div class="field full"><label for="servico">Tipo de serviço *</label><select id="servico" name="servico" required><option value="">Selecione uma opção</option><option>Instalação de ar-condicionado</option><option>Conserto de ar-condicionado</option><option>Manutenção e limpeza</option><option>PMOC e manutenção programada</option><option>Refrigeração comercial</option><option>Geladeiras e freezers</option><option>Outro</option></select></div>
+   <div class="field"><label for="local">Bairro / cidade *</label><input id="local" name="local" required placeholder="Ex.: Tijuca, Rio de Janeiro"></div>
+   <div class="field"><label for="data">Data desejada</label><input id="data" name="data" type="date"></div>
+   <div class="field"><label for="periodo">Período preferido</label><select id="periodo" name="periodo"><option value="A combinar">A combinar</option><option>Manhã</option><option>Tarde</option><option>Noite</option></select></div>
+   <div class="field full"><label for="detalhes">Detalhes do equipamento ou problema</label><textarea id="detalhes" name="detalhes" placeholder="Marca, modelo, o que está acontecendo..."></textarea></div>
+  </div>
+  <label class="consent"><input type="checkbox" name="consentimento" required><span>Concordo que os dados informados sejam usados para responder à minha solicitação, conforme a <a href="#privacidade">política de privacidade</a>.</span></label>
+  <button class="btn" type="submit">Enviar pelo WhatsApp ↗</button><div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+ </form>
+</div></section>
+<section class="privacy" id="privacidade"><div class="container"><div class="section-head"><span class="eyebrow">Transparência</span><h2>Privacidade e proteção de dados</h2><p>Entenda como as informações fornecidas neste site são tratadas.</p></div><details><summary>Leia a política de privacidade</summary><p><strong>Dados informados:</strong> o formulário pode solicitar nome, telefone, bairro/cidade, tipo de serviço, data desejada e detalhes do atendimento.</p><p><strong>Finalidade:</strong> os dados preenchidos são usados no próprio navegador para montar uma mensagem e abrir o WhatsApp da INOVATEC. O site não envia essas informações para um banco de dados próprio.</p><p><strong>Compartilhamento:</strong> ao abrir o WhatsApp e enviar a mensagem, você estará compartilhando as informações com a plataforma WhatsApp, sujeita às políticas próprias do serviço.</p><p><strong>Escolha do usuário:</strong> você pode não preencher o formulário e entrar em contato diretamente pelos telefones informados.</p><p><strong>Cuidados:</strong> evite inserir dados pessoais sensíveis ou informações que não sejam necessárias para descrever o serviço.</p></details></div></section>
+</main>
+<footer><div class="container"><div class="footer-grid">
+ <div><a class="brand" href="#inicio"><svg viewBox="0 0 64 64" role="img" aria-label="Símbolo INOVATEC"><circle cx="32" cy="32" r="29" fill="none" stroke="#e52e43" stroke-width="3.5"/><g stroke="#0b4e91" stroke-width="4" stroke-linecap="round" fill="none"><path d="M32 10v44M13 21l38 22M13 43l38-22"/><path d="M32 10l-5 7m5-7 5 7M32 54l-5-7m5 7 5-7M13 21l8 1m-8-1 3 8m35-8-8 1m8-1-3 8M13 43l8-1m-8 1 3-8m35 8-8-1m8 1-3-8"/></g></svg><span><strong>INOVA<span>TEC</span></strong><small>Refrigeração & climatização</small></span></a><p style="max-width:350px;margin-top:17px">Soluções em climatização e refrigeração para residências e empresas no Rio de Janeiro e região.</p></div>
+ <div><h3>Explore</h3><div class="footer-links"><a href="#servicos">Serviços</a><a href="#solucoes">Soluções</a><a href="#empresa">A empresa</a><a href="#projetos">Nosso trabalho</a></div></div>
+ <div><h3>Fale com a equipe</h3><div class="footer-links"><a href="https://wa.me/5521981161153">(21) 98116-1153</a><a href="https://wa.me/5521985664678">(21) 98566-4678</a><a href="#contato">Solicitar orçamento</a><a href="#privacidade">Política de privacidade</a></div></div>
+</div><div class="copyright">© <span id="year"></span> INOVATEC Refrigeração e Climatização. Todos os direitos reservados.</div></div></footer>
+<script>
+(()=>{
+ const nav=document.getElementById('navlinks'),menu=document.getElementById('menuBtn');
+ menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'✕':'☰';menu.setAttribute('aria-label',open?'Fechar menu':'Abrir menu');});
+ nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='☰';menu.setAttribute('aria-label','Abrir menu');}));
+ const motionOff=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+ if(!motionOff && 'IntersectionObserver' in window){
+  const revealTargets=document.querySelectorAll('.section-head,.service,.audience-card,.about-photo,.about-copy,.gallery-main,.gallery-side figure,.step,.form-card,.contact-info');
+  revealTargets.forEach((el,i)=>{el.classList.add('reveal');el.style.transitionDelay=(i%3)*75+'ms';});
+  const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{
+   if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target);}
+  }),{threshold:.12,rootMargin:'0px 0px -35px 0px'});
+  revealTargets.forEach(el=>observer.observe(el));
+ }
+ document.querySelectorAll('[data-service]').forEach(a=>a.addEventListener('click',()=>{document.getElementById('servico').value=a.dataset.service;}));
+ document.getElementById('year').textContent=new Date().getFullYear();
+ document.getElementById('quoteForm').addEventListener('submit',e=>{
+  e.preventDefault();const form=e.currentTarget;if(!form.reportValidity())return;const d=new FormData(form);
+  const date=d.get('data')?new Date(d.get('data')+'T12:00:00').toLocaleDateString('pt-BR'):'A combinar';
+  const msg=['Olá, INOVATEC! Vim pelo site e gostaria de solicitar um orçamento.','',`Nome: ${d.get('nome')}`,`Telefone: ${d.get('telefone')}`,`Serviço: ${d.get('servico')}`,`Local: ${d.get('local')}`,`Data desejada: ${date}`,`Período: ${d.get('periodo')}`,`Detalhes: ${d.get('detalhes')||'Posso explicar melhor pelo WhatsApp.'}`].join('\n');
+  document.getElementById('formStatus').textContent='Abrindo o WhatsApp. Revise a mensagem e toque em enviar para concluir.';
+  const url='https://wa.me/5521981161153?text='+encodeURIComponent(msg);const w=window.open(url,'_blank','noopener,noreferrer');if(!w)window.location.href=url;
+ });
+})();
+</script>
+</body></html>
