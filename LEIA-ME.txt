@@ -1,0 +1,15 @@
+INOVATEC — pacote do site
+
+Arquivos:
+- index.html: página principal
+- logo.svg: logotipo vetorial criado para o site
+- img/: fotos enviadas organizadas e renomeadas
+
+Como publicar no GitHub Pages:
+1. Extraia o ZIP.
+2. Envie index.html, logo.svg e a pasta img inteira para a raiz do repositório.
+3. Substitua os arquivos antigos quando solicitado.
+4. Em Settings > Pages, confirme a branch e a pasta raiz (/(root)).
+5. Aguarde a publicação e atualize o site com Ctrl+F5 ou limpe o cache do celular.
+
+Os contatos e dados comerciais foram mantidos conforme o HTML fornecido. Revise-os antes de publicar.

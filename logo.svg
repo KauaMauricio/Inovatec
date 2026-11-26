@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-labelledby="t d">
+<title id="t">INOVATEC Refrigeração e Climatização</title><desc id="d">Marca Inovatec com floco de neve azul e vermelho.</desc>
+<g transform="translate(12 12)">
+<circle cx="62" cy="62" r="55" fill="#fff" stroke="#e32636" stroke-width="8"/>
+<g stroke="#0755a4" stroke-width="7" stroke-linecap="round" fill="none">
+<path d="M62 20v84M26 41l72 42M26 83l72-42"/>
+<path d="M62 20l-9 12m9-12 9 12M62 104l-9-12m9 12 9-12M26 41l15 1m-15-1 5 14M98 83l-15-1m15 1-5-14M26 83l15-1m-15 1 5-14M98 41l-15 1m15-1-5 14"/>
+</g></g>
+<text x="145" y="88" font-family="Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="-2" fill="#0755a4">INOVA<tspan fill="#e32636">TEC</tspan></text>
+<text x="150" y="119" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing=".3" fill="#18324f">REFRIGERAÇÃO E CLIMATIZAÇÃO</text>
+</svg>
